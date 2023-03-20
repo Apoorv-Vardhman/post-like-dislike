@@ -1,0 +1,36 @@
+/*
+    Plugin Name:Post like and dislike
+    Description:Helps to estimate like and dislike for post
+    Version:1.0
+    Author: Puja Sinha
+*/
+.btn_container{
+    display: flex;
+}
+.btn_container .wp_post_btn{
+    display: inline-block;
+    flex: 1;
+    padding: 20px;
+    font-size: 20px;
+    margin: 20px;
+    border: 1px solid #cccccc;
+    background: #F8F8F8;
+    text-align: center;
+    text-transform: uppercase;
+    color: #444444;
+    transition: all .5s;
+    text-decoration: none;
+}
+.btn_container .wp_post_btn:hover{
+    text-decoration: none;
+    color: inherit;
+}
+.btn_container .wp_post_like_btn:hover{
+    background: #2dbe15;
+    color: #FFffff;
+}
+
+.btn_container .wp_post_dis_like_btn:hover{
+    background: #c40c0c;
+    color: #FFffff;
+}
